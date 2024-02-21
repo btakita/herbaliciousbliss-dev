@@ -1,0 +1,41 @@
+{
+	"name": "@btakita/-herbalaciousbliss-dev-bin",
+	"private": true,
+	"type": "module",
+	"version": "0.0.0",
+	"bin": {
+		"_env__validate": "./bin/_env__validate.sh",
+		"app--build": "bin/app--build.sh",
+		"app--docker-compose--rebuild": "bin/app--docker-compose--rebuild.sh",
+		"app--docker-compose--restart": "bin/app--docker-compose--restart.sh",
+		"assets--download": "./bin/assets--download.sh",
+		"assets--download--sync": "./bin/assets--download--sync.sh",
+		"assets--upload": "./bin/assets--upload.sh",
+		"assets--upload--sync": "./bin/assets--upload--sync.sh",
+		"dev--docker-compose--restart": "bin/dev--docker-compose--restart.sh",
+		"dev--app--docker-compose--rebuild": "bin/dev--app--docker-compose--rebuild.sh",
+		"dev--app--docker-compose--restart": "bin/dev--app--docker-compose--restart.sh",
+		"dev--app--docker-compose--up": "bin/dev--app--docker-compose--restart.sh",
+		"dev--docker-compose--up": "bin/dev--docker-compose--up.sh",
+		"docker-compose--build": "bin/docker-compose--build.sh",
+		"docker-compose--init": "bin/docker-compose--init.sh",
+		"docker-compose--restart": "bin/docker-compose--restart.sh",
+		"docker-compose--stop": "bin/docker-compose--stop.sh",
+		"docker-compose--up": "bin/docker-compose--up.sh",
+		"product--download": "./bin/product--download.sh",
+		"product--download--sync": "./bin/product--download--sync.sh",
+		"product--upload": "./bin/product--upload.sh",
+		"product--upload--sync": "./bin/product--upload--sync.sh",
+		"tmux-dev": "bin/tmux-dev.sh",
+		"tmux-rename-window": "bin/tmux-rename-window.sh",
+		"traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
+		"traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
+		"traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh"
+	},
+	"devDependencies": {
+		"bun-types": "latest",
+		"canvas": "^2.11.2",
+		"ctx-core": "^6.4.3",
+		"ora": "^8.0.1"
+	}
+}
