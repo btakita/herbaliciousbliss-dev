@@ -1,6 +1,6 @@
-[submodule "app/herbalaciousbliss-site"]
-	path = app/herbalaciousbliss-site
-	url = git@github.com:btakita/herbalaciousbliss-site.git
+[submodule "app/herbaliciousbliss-site"]
+	path = app/herbaliciousbliss-site
+	url = git@github.com:btakita/herbaliciousbliss-site.git
 [submodule "lib/dev-bin"]
 	path = lib/dev-bin
 	url = git@github.com:btakita/dev-bin.git
@@ -16,9 +16,15 @@
 [submodule "lib/domain--server"]
 	path = lib/domain--server
 	url = git@github.com:rappstack/domain--server.git
+[submodule "lib/domain--server--auth"]
+	path = lib/domain--server--auth
+	url = git@github.com:rappstack/domain--server--auth.git
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:rappstack/domain--server--blog.git
+[submodule "lib/domain--server--herbaliciousbliss"]
+	path = lib/domain--server--herbaliciousbliss
+	url = git@github.com:btakita/domain--server--herbaliciousbliss.git
 [submodule "lib/ui--any"]
 	path = lib/ui--any
 	url = git@github.com:rappstack/ui--any.git
@@ -34,9 +40,9 @@
 [submodule "lib/ui--server--blog"]
 	path = lib/ui--server--blog
 	url = git@github.com:rappstack/ui--server--blog.git
-[submodule "lib/ui--server--herbalaciousbliss"]
-	path = lib/ui--server--herbalaciousbliss
-	url = git@github.com:btakita/ui--server--herbalaciousbliss.git
+[submodule "lib/ui--server--herbaliciousbliss"]
+	path = lib/ui--server--herbaliciousbliss
+	url = git@github.com:btakita/ui--server--herbaliciousbliss.git
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git

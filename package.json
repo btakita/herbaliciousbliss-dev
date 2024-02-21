@@ -9,7 +9,7 @@
     "start": "cd ./app/herbaliciosbliss-site && bun start"
   },
   "devDependencies": {
-    "@btakita/-herbalaciousbliss-dev-bin": "workspace:*",
+    "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
     "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "@ctx-core/monorepo": "^21.4.49",

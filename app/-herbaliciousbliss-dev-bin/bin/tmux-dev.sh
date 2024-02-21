@@ -11,4 +11,4 @@ tmux select-pane -t 1
 tmux split-window -h $SHELL
 tmux send-keys "cd $DIR/app/herbaliciosbliss-site; bun -b run dev" 'C-m'
 tmux select-pane -t 1
-tmux rename-window herbalaciousbliss
+tmux rename-window herbaliciousbliss
