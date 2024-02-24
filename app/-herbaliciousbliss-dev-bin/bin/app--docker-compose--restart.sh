@@ -1,6 +1,6 @@
 #!/bin/sh
 
-RUNNING_CONTAINER_ID=$(docker ps | grep ' herbaliciosbliss-site-' | awk '{print $1}')
+RUNNING_CONTAINER_ID=$(docker ps | grep ' herbaliciousbliss-site-' | awk '{print $1}')
 # shellcheck disable=SC2039
 declare -i COUNT
 # shellcheck disable=SC2039

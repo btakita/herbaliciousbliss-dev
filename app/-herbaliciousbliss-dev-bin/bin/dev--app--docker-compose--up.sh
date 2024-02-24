@@ -1,3 +1,3 @@
 #!/bin/sh
 
-HOST=my.herbaliciosbliss-site dev--docker-compose--up
+HOST=my.herbaliciousbliss-site dev--docker-compose--up

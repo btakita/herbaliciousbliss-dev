@@ -3,21 +3,21 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "build": "cd ./app/herbaliciosbliss-site && bun run build",
-    "clear": "cd ./app/herbaliciosbliss-site && bun clear",
-    "dev": "cd ./app/herbaliciosbliss-site && bun dev",
-    "start": "cd ./app/herbaliciosbliss-site && bun start"
+    "build": "cd ./app/herbaliciousbliss-site && bun run build",
+    "clear": "cd ./app/herbaliciousbliss-site && bun clear",
+    "dev": "cd ./app/herbaliciousbliss-site && bun dev",
+    "start": "cd ./app/herbaliciousbliss-site && bun start"
   },
   "devDependencies": {
     "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
     "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
-    "@ctx-core/monorepo": "^21.4.50",
+    "@ctx-core/monorepo": "^21.4.52",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "broken-link-checker": "^0.7.8",
     "bun-types": "latest",
-    "eslint": "^8.56.0"
+    "eslint": "^8.57.0"
   },
   "peerDependencies": {
     "typescript": "^5.3.3"

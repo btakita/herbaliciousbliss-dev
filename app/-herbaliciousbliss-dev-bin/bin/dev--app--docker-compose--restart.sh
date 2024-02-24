@@ -1,3 +1,3 @@
 #!/bin/sh
 
-HOST=my.herbaliciosbliss-site app--docker-compose--restart
+HOST=my.herbaliciousbliss-site app--docker-compose--restart
