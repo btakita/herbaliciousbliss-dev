@@ -31,18 +31,6 @@
 [submodule "lib/persontric-adapter-drizzle"]
 	path = lib/persontric-adapter-drizzle
 	url = git@github.com:persontric/adapter-drizzle.git
-[submodule "lib/persontric-adapter-mongodb"]
-	path = lib/persontric-adapter-mongodb
-	url = git@github.com:persontric/adapter-mongodb.git
-[submodule "lib/persontric-adapter-mysql"]
-	path = lib/persontric-adapter-mysql
-	url = git@github.com:persontric/adapter-mysql.git
-[submodule "lib/persontric-adapter-postgresql"]
-	path = lib/persontric-adapter-postgresql
-	url = git@github.com:persontric/adapter-postgresql.git
-[submodule "lib/persontric-adapter-prisma"]
-	path = lib/persontric-adapter-prisma
-	url = git@github.com:persontric/adapter-prisma.git
 [submodule "lib/persontric-adapter-sqlite"]
 	path = lib/persontric-adapter-sqlite
 	url = git@github.com:persontric/adapter-sqlite.git
