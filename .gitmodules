@@ -43,9 +43,15 @@
 [submodule "lib/ui--any--blog"]
 	path = lib/ui--any--blog
 	url = git@github.com:rappstack/ui--any--blog.git
+[submodule "lib/ui--any--herbiliciousbliss"]
+	path = lib/ui--any--herbiliciousbliss
+	url = git@github.com:btakita/ui--any--herbiliciousbliss.git
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
+[submodule "lib/ui--browser--herbaliciousbliss"]
+	path = lib/ui--browser--herbaliciousbliss
+	url = git@github.com:btakita/ui--browser--herbaliciousbliss.git
 [submodule "lib/ui--server"]
 	path = lib/ui--server
 	url = git@github.com:rappstack/ui--server.git
