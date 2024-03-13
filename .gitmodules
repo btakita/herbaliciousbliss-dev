@@ -37,6 +37,9 @@
 [submodule "lib/persontric-adapter-test"]
 	path = lib/persontric-adapter-test
 	url = git@github.com:persontric/adapter-test.git
+[submodule "lib/snippet--rappstack"]
+	path = lib/snippet--rappstack
+	url = git@github.com:btakita/snippet--rappstack.git
 [submodule "lib/ui--any"]
 	path = lib/ui--any
 	url = git@github.com:rappstack/ui--any.git
@@ -46,6 +49,9 @@
 [submodule "lib/ui--any--herbiliciousbliss"]
 	path = lib/ui--any--herbiliciousbliss
 	url = git@github.com:btakita/ui--any--herbiliciousbliss.git
+[submodule "lib/ui--browser"]
+	path = lib/ui--browser
+	url = git@github.com:rappstack/ui--browser.git
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
@@ -64,9 +70,3 @@
 [submodule "lib/ui--server--linkument"]
 	path = lib/ui--server--linkument
 	url = git@github.com:linkument/ui--server--linkument.git
-[submodule "lib/snippet--rappstack"]
-	path = lib/snippet--rappstack
-	url = git@github.com:btakita/snippet--rappstack.git
-[submodule "lib/ui--browser"]
-	path = lib/ui--browser
-	url = git@github.com:rappstack/ui--browser.git
