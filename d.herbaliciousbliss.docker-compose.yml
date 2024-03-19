@@ -1,0 +1,29 @@
+services:
+  www:
+    build:
+      dockerfile: d.herbaliciousbliss.Dockerfile
+    env_file:
+      - .env
+    expose:
+      - "80"
+      - "443"
+      - "4102"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.http.services.herbaliciousbliss-www.loadbalancer.server.port=4102"
+      - "traefik.http.routers.herbaliciousbliss-www.rule=Host(`hb.briantakita.me`)"
+      - "traefik.http.routers.herbaliciousbliss-www.tls.certresolver=acme"
+      - "traefik.http.middlewares.herbaliciousbliss-www.retry.attempts=4"
+      - "traefik.http.middlewares.herbaliciousbliss-www.retry.initialinterval=100ms"
+      - "traefik.http.routers.herbaliciousbliss-www.middlewares=herbaliciousbliss-www-https-redirect"
+      - "traefik.http.middlewares.herbaliciousbliss-www-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.herbaliciousbliss-www-https-redirect.redirectscheme.permanent=true"
+    networks:
+      - web
+    volumes:
+      - .:/app
+    restart: always
+networks:
+  web:
+    external: true
