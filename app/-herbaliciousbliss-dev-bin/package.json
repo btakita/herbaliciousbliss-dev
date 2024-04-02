@@ -32,7 +32,7 @@
 	"devDependencies": {
 		"bun-types": "latest",
 		"canvas": "^2.11.2",
-		"ctx-core": "^7.0.2",
+		"ctx-core": "^7.1.0",
 		"ora": "^8.0.1"
 	}
 }
