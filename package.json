@@ -12,7 +12,7 @@
     "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
     "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
-    "@ctx-core/monorepo": "^21.4.98",
+    "@ctx-core/monorepo": "^21.4.100",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "broken-link-checker": "^0.7.8",
@@ -20,7 +20,7 @@
     "eslint": "^9.0.0"
   },
   "peerDependencies": {
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "workspaces": [
     "app/*",
