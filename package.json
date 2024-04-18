@@ -13,8 +13,8 @@
     "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "@ctx-core/monorepo": "^21.4.100",
-    "@typescript-eslint/eslint-plugin": "^7.6.0",
-    "@typescript-eslint/parser": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
     "broken-link-checker": "^0.7.8",
     "bun-types": "latest",
     "eslint": "^9.0.0"
