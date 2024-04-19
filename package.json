@@ -17,7 +17,7 @@
     "@typescript-eslint/parser": "^7.7.0",
     "broken-link-checker": "^0.7.8",
     "bun-types": "latest",
-    "eslint": "^9.0.0"
+    "eslint": "^9.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.4.5"
