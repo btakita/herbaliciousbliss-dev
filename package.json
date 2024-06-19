@@ -12,7 +12,7 @@
     "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
     "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.5",
-    "@ctx-core/monorepo": "^21.4.134",
+    "@ctx-core/monorepo": "^21.4.138",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "broken-link-checker": "^0.7.8",
