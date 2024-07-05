@@ -11,16 +11,16 @@
   "devDependencies": {
     "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
     "@btakita/dev-bin": "workspace:*",
-    "@changesets/cli": "^2.27.6",
-    "@ctx-core/monorepo": "^21.4.144",
-    "@typescript-eslint/eslint-plugin": "^7.14.1",
-    "@typescript-eslint/parser": "^7.14.1",
+    "@changesets/cli": "^2.27.7",
+    "@ctx-core/monorepo": "^21.4.147",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
     "broken-link-checker": "^0.7.8",
     "bun-types": "latest",
     "eslint": "^9.6.0"
   },
   "peerDependencies": {
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "workspaces": [
     "app/*",
