@@ -8,3 +8,8 @@ public
 letsencrypt
 
 tmp
+
+.agent-doc/
+.wrangler/
+db/
+dist/
