@@ -73,7 +73,7 @@ jobs:
       - name: Smoke test live site
         run: |
           for path in "/" "/lyra"; do
-            status=$(curl -s -o /dev/null -w "%{http_code}" "https://hb.briantakita.me${path}")
+            status=$(curl -sL -o /dev/null -w "%{http_code}" "https://hb.briantakita.me${path}")
             if [ "$status" != "200" ]; then
               echo "FAIL: https://hb.briantakita.me${path} returned $status"
               exit 1
