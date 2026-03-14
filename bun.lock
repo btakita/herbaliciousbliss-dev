@@ -61,6 +61,7 @@
       "dependencies": {
         "@btakita/domain--server--herbaliciousbliss": "workspace:*",
         "@btakita/ui--any--herbaliciousbliss": "workspace:*",
+        "@btakita/ui--browser--herbaliciousbliss": "workspace:*",
         "@btakita/ui--server--herbaliciousbliss": "workspace:*",
         "@ctx-core/preprocess": "^0.1.3",
         "@ctx-core/source-map": "^0.2.110",
