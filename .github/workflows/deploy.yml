@@ -54,9 +54,29 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
+      - name: Verify build output
+        run: |
+          echo "Checking dist/browser/ for expected HTML files..."
+          test -f app/herbaliciousbliss-site/dist/browser/index.html \
+            || { echo "FAIL: missing dist/browser/index.html"; exit 1; }
+          test -f app/herbaliciousbliss-site/dist/browser/lyra/index.html \
+            || { echo "FAIL: missing dist/browser/lyra/index.html"; exit 1; }
+          echo "Build output verified: index.html and lyra/index.html present"
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy app/herbaliciousbliss-site/dist/browser --project-name=herbaliciousbliss
+
+      - name: Smoke test live site
+        run: |
+          for path in "/" "/lyra"; do
+            status=$(curl -s -o /dev/null -w "%{http_code}" "https://hb.briantakita.me${path}")
+            if [ "$status" != "200" ]; then
+              echo "FAIL: https://hb.briantakita.me${path} returned $status"
+              exit 1
+            fi
+            echo "OK: https://hb.briantakita.me${path} returned 200"
+          done
