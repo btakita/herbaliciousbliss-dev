@@ -48,6 +48,7 @@ jobs:
           AUTH_GOOGLE_SECRET: ${{ secrets.AUTH_GOOGLE_SECRET }}
           AUTH_GITHUB_ID: ${{ secrets.AUTH_GITHUB_ID }}
           AUTH_GITHUB_SECRET: ${{ secrets.AUTH_GITHUB_SECRET }}
+          ASSET_BASE_URL: ${{ secrets.ASSET_BASE_URL }}
           AWS_REGION: auto
           AWS_BUCKET: ${{ secrets.AWS_BUCKET }}
           AWS_ENDPOINT_URL: ${{ secrets.AWS_ENDPOINT_URL }}
