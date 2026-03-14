@@ -35,11 +35,12 @@ jobs:
         run: |
           cd app/herbaliciousbliss-site
           bun run build
-          bun ./index.ts &
+          bun ./start.ts &
           sleep 5
           bun ./prerender.ts
           kill %1
         env:
+          NODE_ENV: production
           ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS }}
           AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
