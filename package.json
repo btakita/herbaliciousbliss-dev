@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
-    "@btakita/dev-bin": "workspace:*",
+    "@btakita/dev-bin": "^0.1.0",
     "@changesets/cli": "^2.27.7",
     "@ctx-core/monorepo": "^21.4.147",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
