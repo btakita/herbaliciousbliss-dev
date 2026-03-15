@@ -25,5 +25,8 @@
   "workspaces": [
     "app/*",
     "lib/*"
-  ]
+  ],
+  "dependencies": {
+    "rebuildjs": "0.70.46"
+  }
 }
