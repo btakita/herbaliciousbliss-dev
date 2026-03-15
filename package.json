@@ -27,6 +27,6 @@
     "lib/*"
   ],
   "dependencies": {
-    "rebuildjs": "0.70.46"
+    "rebuildjs": "^0.71.0"
   }
 }

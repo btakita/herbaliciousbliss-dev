@@ -5,7 +5,7 @@
     "": {
       "name": "@btakita/herbaliciosbliss-dev",
       "dependencies": {
-        "rebuildjs": "0.70.46",
+        "rebuildjs": "^0.71.0",
       },
       "devDependencies": {
         "@btakita/-herbaliciousbliss-dev-bin": "workspace:*",
@@ -1204,7 +1204,7 @@
 
     "readable-stream": ["readable-stream@1.0.34", "", { "dependencies": { "core-util-is": "~1.0.0", "inherits": "~2.0.1", "isarray": "0.0.1", "string_decoder": "~0.10.x" } }, "sha512-ok1qVCJuRkNmvebYikljxJA/UEsKwLl2nI1OmaqAu4/UE+h0wKCHok4XkL/gvi39OacXvw59RJUOFUkDib2rHg=="],
 
-    "rebuildjs": ["rebuildjs@0.70.46", "", { "dependencies": { "ctx-core": "*", "elysia": "^1.4.27", "fdir": "^6.5.0", "picomatch": "^4.0.3" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-rhUuBC6p/lDxoj8fJOqXVbh+iV7xi/qMj7gcF8sJJXq+f+MTOVCtlHkixjaRXQ/y+hQNj+wksVZePBr0WYxRlQ=="],
+    "rebuildjs": ["rebuildjs@0.71.0", "", { "dependencies": { "ctx-core": "*", "fdir": "^6.5.0", "picomatch": "^4.0.3" }, "peerDependencies": { "esbuild": "^0.27.3" } }, "sha512-PQOq4H4OCUiX09avXGFXzlwFZ3Vxt+slooh/KFX94fDOk4Jp+KG5zbsnNzwu+0Z0TkiDEVPr6ZLaSk0W97N9eg=="],
 
     "relementjs": ["relementjs@0.80.33", "", { "dependencies": { "ctx-core": "*", "hyop": "*" } }, "sha512-hDwLopwyRZwCrHr2BuWTZQXZQgk20IdWSiDRvesOkifGCKqtMzqcOrBVyD5M4mw0xUCgjzpBCetKTka74C9LWQ=="],
 
