@@ -81,3 +81,11 @@ jobs:
             fi
             echo "OK: https://hb.briantakita.me${path} returned 200"
           done
+          # Asset smoke test
+          status=$(curl -sfL -o /dev/null -w "%{http_code}" "https://assets.hb.briantakita.me/asset/image/herbaliciousbliss-logo.webp")
+          if [ "$status" != "200" ]; then
+            echo "FAIL ($status): asset image check"
+            exit 1
+          fi
+          echo "OK ($status): https://assets.hb.briantakita.me/asset/image/herbaliciousbliss-logo.webp"
+          echo "Smoke test passed."
